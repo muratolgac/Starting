@@ -45,6 +45,8 @@ for (var i = 1; i < 11; i++) {
         console.log("Boom");
     } else if (i == 6) {
         console.log("six");
+    } else if (i ==7) {
+        console.log("Kafanagore");
     } else if (i == 10) {
         console.log("FINISH");
     } else {
