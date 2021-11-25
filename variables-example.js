@@ -43,6 +43,8 @@ for (var i = 1; i < 11; i++) {
 for (var i = 1; i < 11; i++) {
     if (i == 5) {
         console.log("Boom");
+    } else if (i ==7) {
+        console.log("Kafanagore");
     } else if (i == 10) {
         console.log("FINISH");
     } else {
