@@ -24,3 +24,4 @@ console.log(presidentName);
 // presidentName: Biden
 console.log("presidentName:", presidentName);
 console.log("Benim adım:", name);
+console.log("başkanın adı",presidentName);
