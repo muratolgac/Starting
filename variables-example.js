@@ -24,29 +24,29 @@ console.log(presidentName);
 // presidentName: Biden
 console.log("presidentName:", presidentName);
 console.log("Benim adım:", name);
-console.log("başkanın adı",presidentName);
+console.log("başkanın adı", presidentName);
 
 const age = 17;
 
 if (age < 18) {
-  console.log("Alice is under 18 years old.");
+    console.log("Alice is under 18 years old.");
 } else if (age >= 18 && age <= 21) {
-  console.log("Alice is between the ages of 18 and 21.");
+    console.log("Alice is between the ages of 18 and 21.");
 } else {
-  console.log("Alice is over 21 years old.");
+    console.log("Alice is over 21 years old.");
 }
 
 for (var i = 1; i < 11; i++) {
     console.log(i);
 }
 
-for (var i = 1; i < 11; i++){
+for (var i = 1; i < 11; i++) {
     if (i == 5) {
         console.log("Boom");
     } else if (i == 10) {
-      console.log("FINISH");
+        console.log("FINISH");
     } else {
         console.log(i);
-        }
-    
+    }
+
 }
