@@ -19,7 +19,7 @@ function getFullName(name, surname) {
 function getMultiplicationByRandom(num) {
     // random sayısını tam sayıya çevirme
     const random = Math.random() * 9 + 1;
-    console.log("Random:", random);
+    //console.log("Random:", random);
     return num * random;
 }
 
@@ -29,13 +29,25 @@ const fullname = getFullName(name, "Macto");
 //printHelloWithName(name);
 
 const result1 = getMultiplicationByRandom(5);
-console.log("result1:", result1);
+//console.log("result1:", result1);
 
 const result2 = getMultiplicationByRandom(4);
-console.log("result2:", result2);
+//console.log("result2:", result2);
 
-if (result1 > result2) {
-    console.log(result1);
-} else {
-    console.log(result2);
+//if (result1 > result2) {
+//   console.log(result1);
+//} else {
+//   console.log(result2);
+//}
+
+function examResult(visa, final) {
+    if (total >= 50 && final >= 50) {
+        console.log("Sınavı Geçtiniz");
+    } else {
+        console.log("Geçmiş Olsun");
+    }
 }
+const visa = 60
+const final = 70
+const total = visa * 0.3 + final * 0.7
+examResult(visa, final);
