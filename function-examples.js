@@ -50,3 +50,4 @@ function examResult(visa, final) {
 const visa = 90
 const final = 50
 examResult(visa, final);
+
