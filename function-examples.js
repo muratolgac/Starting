@@ -41,13 +41,12 @@ const result2 = getMultiplicationByRandom(4);
 //}
 
 function examResult(visa, final) {
-    if (total >= 50 && final >= 50) {
+    if (visa * 0.3 + final * 0.7 >= 50 && final >= 50) {
         console.log("Sınavı Geçtiniz");
     } else {
         console.log("Geçmiş Olsun");
     }
 }
-const visa = 60
-const final = 70
-const total = visa * 0.3 + final * 0.7
+const visa = 90
+const final = 50
 examResult(visa, final);
